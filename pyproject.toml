@@ -17,8 +17,3 @@ classifiers = [
   "Operating System :: OS Independent",
 ]
 license = { file = "LICENSE" }
-
-# Specify the packages and where they should be found
-# [tool.setuptools.packages.find]
-# where = "src"  # Specifies where to look for packages
-# include = ["foo2*"]  # Only includes packages under foo2
