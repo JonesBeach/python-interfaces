@@ -12,11 +12,11 @@ urls = { "github" = "https://github.com/JonesBeach/python-interfaces" }
 dependencies = []
 optional-dependencies = { dev = ["pytest", "pyright", "ruff", "black"] }
 classifiers = [
-    "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
 ]
-license ={ file = "LICENSE" }
+license = { file = "LICENSE" }
 
 # Specify the packages and where they should be found
 # [tool.setuptools.packages.find]
