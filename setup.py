@@ -2,7 +2,6 @@ import io
 
 from setuptools import setup, find_packages
 
-
 with open("README.md") as readme_file:
     readme = readme_file.read()
 
@@ -16,9 +15,9 @@ setup(
     description="Bringing interfaces to Python.",
     long_description=readme,
     long_description_content_type="text/markdown",
-    author="Tyler Green",
-    author_email="tgreen8091@gmail.com",
-    url="https://github.com/tyleragreen/python-interfaces",
+    author="Jones Beach",
+    author_email="jonesbeach60@gmail.com",
+    url="https://github.com/JonesBeach/python-interfaces",
     packages=find_packages(include=["interface"]),
     license="MIT license",
 )

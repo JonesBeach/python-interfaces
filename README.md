@@ -32,16 +32,16 @@ pip install -r requirements.txt
 # Since the tests live outside the package, we install the package in editable mode
 pip install -e .
 
-# Format
+# Run the formatter
 black .
 
-# Lint
-ruff .
+# Run the linter
+ruff check .
 
-# Check static types
+# Check the static types
 pyright
 
-# Test
+# Run the unit tests
 pytest
 ```
 ## Other Ideas
