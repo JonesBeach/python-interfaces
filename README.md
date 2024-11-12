@@ -1,10 +1,13 @@
 # python-interfaces
+This project is a learning exercise in Python metaprogramming. I wondered what Java-style interfaces would look like in Python.
+
+For a tad more context, you can read [this blog post](https://tyleragreen.com/blog/2018/12/bringing-interfaces-to-python/).
 ## Installation
-```
+```bash
 pip install python-interfaces
 ```
 ## Usage
-```
+```python
 from interface import interface
 
 class Iterable:
@@ -19,7 +22,7 @@ class Foo:
 # raises InterfaceException
 ```
 ## Local Development
-```
+```bash
 git clone https://github.com/tyleragreen/python-interfaces.git && cd python-interfaces
 virtualenv ~/.env/interface
 source ~/.env/interface/bin/activate
