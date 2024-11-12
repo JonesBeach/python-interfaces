@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python-interfaces"
+version = "0.1.2"
+description = "Bringing interfaces to Python."
+readme = { file = "README.md", content-type = "text/markdown" }
+authors = [{ name = "Jones Beach", email = "jonesbeach60@gmail.com" }]
+urls = { "github" = "https://github.com/JonesBeach/python-interfaces" }
+dependencies = []
+optional-dependencies = { dev = ["pytest", "pyright", "ruff", "black"] }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+license ={ file = "LICENSE" }
+
+# Specify the packages and where they should be found
+# [tool.setuptools.packages.find]
+# where = "src"  # Specifies where to look for packages
+# include = ["foo2*"]  # Only includes packages under foo2
